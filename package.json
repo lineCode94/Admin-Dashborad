@@ -1,0 +1,109 @@
+{
+  "name": "IKSIB-Admin",
+  "version": "0.1.0",
+  "description": "Iksib is an online stores platform for business men  ",
+  "private": true,
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.10",
+    "@pathofdev/react-tag-input": "^1.0.7",
+    "@react-pdf/renderer": "^1.6.17",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@windmill/react-ui": "^0.5.1",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.2.3",
+    "chart.js": "^3.7.1",
+    "classnames": "2.2.6",
+    "currency-symbol-map": "^5.0.1",
+    "date-fns": "^2.29.3",
+    "dayjs": "^1.10.7",
+    "flowbite": "^1.6.3",
+    "flowbite-react": "^0.3.8",
+    "html2canvas": "^1.4.0",
+    "i18next": "^22.4.9",
+    "js-cookie": "^3.0.1",
+    "jspdf": "^2.5.0",
+    "node-sass": "^8.0.0",
+    "papaparse": "^5.3.1",
+    "rc-drawer": "^4.4.2",
+    "react": "^17.0.2",
+    "react-accessible-accordion": "^5.0.0",
+    "react-bootstrap": "^2.7.0",
+    "react-chartjs-2": "^3.3.0",
+    "react-chip-input": "^1.1.0",
+    "react-custom-scrollbars-2": "^4.4.0",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.7.1",
+    "react-google-login": "^5.2.2",
+    "react-hook-form": "^7.41.3",
+    "react-icons": "^4.3.1",
+    "react-multi-select-component": "^4.1.14",
+    "react-papaparse": "^3.18.1",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^5.7.0",
+    "react-slideshow-image": "^4.2.0",
+    "react-spinners": "^0.11.0",
+    "react-swiper": "^0.1.5",
+    "react-to-print": "^2.14.3",
+    "react-toastify": "^8.0.3",
+    "react-tooltip": "^4.2.21",
+    "react-transition-group": "^4.4.2",
+    "socket.io-client": "^4.4.0",
+    "swiper": "^9.0.3",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.11"
+  },
+  "resolutions": {
+    "react-scripts/**/react-error-overlay": "6.0.9"
+  },
+  "scripts": {
+    "tailwind:dev": "tailwindcss build src/assets/css/tailwind.css -o src/assets/css/tailwind.output.css",
+    "tailwind:build": "cross-env NODE_ENV=production postcss src/assets/css/tailwind.css -o src/assets/css/tailwind.output.css",
+    "prestart": " npm run tailwind:dev",
+    "start": "react-scripts start",
+    "prebuild": "NODE_OPTIONS=--openssl-legacy-provider npm run tailwind:build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "cz": "git-cz",
+    "release": "release-it",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
+    "cssnano": "4.1.10",
+    "postcss-cli": "7.1.1",
+    "react-error-overlay": "^6.0.9",
+    "release-it": "13.6.4",
+    "tailwindcss": "^1.9.6"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": false
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all"
+    ]
+  }
+}
