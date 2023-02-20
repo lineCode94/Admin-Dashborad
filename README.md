@@ -1,15 +1,9 @@
-
-Dashtar Admin Documentation
-
+Dashtar Admin Documentationo
 
 Introduction:
 
-This is a e-commerce admin template built with React.js and Tailwindcss with rest api. This is admin template backend is ready and 
-that is built with node, express, mongoose schema validation and use mongodb for  database.
-
-
-
-
+This is a e-commerce admin template built with React.js and Tailwindcss with rest api. This is admin template backend is ready and
+that is built with node, express, mongoose schema validation and use mongodb for database.
 
 Tech and Packages we use in this project:
 
@@ -30,10 +24,6 @@ Tech and Packages we use in this project:
     15. React Tag input for Input Tag.
     16. Use Windmill React Ui for some built in tailwindcss component like Button, Table, Badge, Card, Form, Pagination, Dropdown,  Modal and Dark Theme.
 
-
-
-
-
 Getting Started & Installation:
 
 For getting started with the template you have to follow the below procedure. First navigate to the Dashtar-admin directory.
@@ -44,49 +34,38 @@ Within the project directory you'll find a .env.example file just rename it as .
 
 Step 2 : Running the project:
 
-⦁	First npm install for install all packages latest version.
-⦁	then npm start for running in development mode
+⦁ First npm install for install all packages latest version.
+⦁ then npm start for running in development mode
 
 If you want to test your production build in local environment then run the below commands.
-⦁	npm build then npm start
-
-
-
-
+⦁ npm build then npm start
 
 Folder Structure & Customization:
 
-⦁   To customize tailwindcss configuration go to -> tailwind.config.js file .
+⦁ To customize tailwindcss configuration go to -> tailwind.config.js file .
 
-⦁   /public: To change your project title, favicon go to public folder index.html file.
+⦁ /public: To change your project title, favicon go to public folder index.html file.
 
-⦁   /src/assets: This folder contain tailwind post css and custom css(you can write custom css in in file) also img folder for all using image  
-    and myTheme for all windmill tailwindcss component design.
+⦁ /src/assets: This folder contain tailwind post css and custom css(you can write custom css in in file) also img folder for all using image  
+ and myTheme for all windmill tailwindcss component design.
 
-⦁   /src/components: This folder contain all the template related ui components .
+⦁ /src/components: This folder contain all the template related ui components .
 
-⦁   /src/layout: This folder contain layout section for all pages and related components.
+⦁ /src/layout: This folder contain layout section for all pages and related components.
 
-⦁   /src/contexts: This folder contain all necessary context for this template . Like Mobile-Sidebar, Dark Theme and User-Login.
+⦁ /src/contexts: This folder contain all necessary context for this template . Like Mobile-Sidebar, Dark Theme and User-Login.
 
-⦁   /src/hooks: This folder contain all custom hooks for data fetching, data filtering, drawer toggling, and all product, category, coupon and    
-    staff submit and edit functionality.
+⦁ /src/hooks: This folder contain all custom hooks for data fetching, data filtering, drawer toggling, and all product, category, coupon and  
+ staff submit and edit functionality.
 
-⦁   /src/pages: Here you find all pages that we use in this project.
+⦁ /src/pages: Here you find all pages that we use in this project.
 
-⦁   /src/route: This Folder contain all route in index file and sidebar for all sidebar navigation route.
+⦁ /src/route: This Folder contain all route in index file and sidebar for all sidebar navigation route.
 
-⦁   /src/services: This folder contain all data fetching function with Axios interface. AdminServices for all admin related data fetching 
-    functionality, CategoryService for category related, CouponServices for coupon related, OrderServices for order related, ProductServices for product related, UserServices for all customers related and httpService is for Common api endpoint with Axios interface.
+⦁ /src/services: This folder contain all data fetching function with Axios interface. AdminServices for all admin related data fetching
+functionality, CategoryService for category related, CouponServices for coupon related, OrderServices for order related, ProductServices for product related, UserServices for all customers related and httpService is for Common api endpoint with Axios interface.
 
-⦁   /src/utils : This folder contain chartData, and  toast function for notification.
-
-
-
-
-
-
-
+⦁ /src/utils : This folder contain chartData, and toast function for notification.
 
 Configuration & Deployment:
 
